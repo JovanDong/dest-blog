@@ -12,7 +12,7 @@ const readDir = (url) => {
     if(info.isDirectory()){
       readDir(location);
     }else{
-        //   console.log(`${item}`);
+          console.log(`${item}`);
         namearr.push(item);
     }
   });

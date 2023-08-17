@@ -2,36 +2,53 @@ import { defineUserConfig } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 
 
-
 export default defineUserConfig({
-  title: 'Jovand',  // 名称
-  description: '这是使用vuepress-reco进行的第一次配置',  // 描述
-  dest: 'dist',  // 打包文件的位置
-  base: '/',  // 准备发布到GitHub的仓库名称
-  port: 9088,  // 运行端口号
+  title: 'Jovand的博客', // 名称
+  description: '这是使用vuepress-reco进行的第一次配置', // 描述
+  dest: 'dist', // 打包文件的位置
+  base: '/', // 准备发布到GitHub的仓库名称
+  port: 9088, // 运行端口号
   // 添加到html的head顶部的东西
   head: [
-    ['link', { rel: 'icon', href: '/jovand-blog/img/icon2.svg' }],
-    ['meta', { name: 'keywords', content: 'jovnad的个人博客网页' }],  
-    ['meta', { name: 'description', content: '空城机的个人博客网页' }],  
-    ['meta', { name: 'author', content: '空城机' }],  
-    ['meta', { name: 'robots', content: 'all' }],  
+    ['link', { rel: 'icon', href: '/img/home/headportrait.gif' }],
+    ['meta', { name: 'keywords', content: 'Jovand的个人博客网页' }],
+    ['meta', { name: 'description', content: 'Jovand的个人博客网页' }],
+    ['meta', { name: 'author', content: 'Jovand' }],
+    ['meta', { name: 'robots', content: 'all' }],
+    // ["script", {
+    //   "language": "javascript",
+    //   "type": "text/javascript",
+    //   "src": "https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"
+    // }],
+    // // 引入鼠标点击脚本
+    // ["script", {
+    //   "language": "javascript",
+    //   "type": "text/javascript",
+    //   "src": "/js/MouseClickEffect.js"
+    // }]
   ],
   // 主题配置
   theme: recoTheme({
     // style: '@vuepress-reco/style-default',
-    logo: '/img/icon.svg',
+    logo: '/img/home/headportrait.gif',
     author: 'jovand',
-    authorAvatar: '/img/home/headportrait.png',
+    authorAvatar: '/img/home/headportrait.gif',
     // series 为原 sidebar
     series: {
       '/docs/highPerformanceJavaScript/': [
         {
           text: '高性能JavaScript',
           children: [
-            'hpjs01.md', 'hpjs02.md', 'hpjs03.md', 'hpjs04.md', 'hpjs05.md', 'hpjs06.md', 'hpjs07.md', 'hpjs08.md'
-          ]
-        }
+            'hpjs01.md',
+            'hpjs02.md',
+            'hpjs03.md',
+            'hpjs04.md',
+            'hpjs05.md',
+            'hpjs06.md',
+            'hpjs07.md',
+            'hpjs08.md',
+          ],
+        },
       ],
       '/docs/nodeblog/': [
         {
@@ -53,8 +70,8 @@ export default defineUserConfig({
             'Node连接MongoDB（一）.md',
             'Node の MongoDB Driver.md',
             'node の SQLite.md',
-          ]
-        }
+          ],
+        },
       ],
       '/docs/typescript/': [
         {
@@ -73,15 +90,15 @@ export default defineUserConfig({
             '从0开始的TypeScriptの十一：模块和命名空间.md',
             '从0开始的TypeScriptの十二：装饰器.md',
             '从0开始的TypeScriptの十三： infer、extends、keyof、typeof、in.md',
-          ]
-        }
+          ],
+        },
       ],
       '/docs/threeJs/': [
         {
           text: 'ThreeJs学习专栏',
           children: [
-            'Three.Js杂记1.md', 
-            'Three.js杂记2.md', 
+            'Three.Js杂记1.md',
+            'Three.js杂记2.md',
             'Three.js杂记3.md',
             'Three.js杂记4.md',
             'Three.js杂记5.md',
@@ -92,53 +109,61 @@ export default defineUserConfig({
             'Three.js杂记10.md',
             'Three.js杂记11.md',
             'Three.js杂记12.md',
-          ]
-        }
+          ],
+        },
       ],
     },
-    navbar: 
-    [
+    navbar: [
       { text: '首页', link: '/' },
-      { text: '博客专栏', 
+      {
+        text: '博客专栏',
         children: [
-          { text: '高性能JavaScript', link: '/docs/highPerformanceJavaScript/hpjs01' },
+          {
+            text: '高性能JavaScript',
+            link: '/docs/highPerformanceJavaScript/hpjs01',
+          },
           { text: 'node学习', link: '/docs/nodeblog/Node1' },
-          { text: 'Typescript学习', link: '/docs/typescript/cong0kaishideTypeScriptのyi' },
+          {
+            text: 'Typescript学习',
+            link: '/docs/typescript/cong0kaishideTypeScriptのyi',
+          },
           { text: 'ThreeJs学习', link: '/docs/threeJs/Three.Jszaji1' },
-        ]
+        ],
       },
       { text: '标签索引', link: '/tags/gaoxingnenJavaScript/1/' },
-      { text: '关于我', 
+      {
+        text: '关于我',
         children: [
           { text: 'CSDN', link: 'https://blog.csdn.net/Mr_dong_ya_yun' },
           { text: '码云', link: 'https://gitee.com/jovand' },
           { text: 'Github', link: 'https://github.com/JovanDong' },
-          { text: 'GitCode', link: 'https://gitcode.net/dst' }
-        ]
+          { text: 'GitCode', link: 'https://gitcode.net/dst' },
+        ],
       },
     ],
     // 公告，我目前不需要，直接注释掉即可
-    // bulletin: {
-    //   body: [
-    //     {
-    //       type: 'text',
-    //       content: `🎉🎉🎉 `,
-    //       style: 'font-size: 12px;'
-    //     },
-    //   ],
-    // },
+    bulletin: {
+      body: [
+        {
+          type: 'text',
+          content: `🎉🎉🎉 `,
+          style: 'font-size: 12px;',
+        },
+      ],
+    },
     // valineConfig 配置与 1.x 一致
-    // valineConfig: {
-    //   appId: 'xxx',
-    //   appKey: 'xxx',
-    //   placeholder: '填写邮箱可以收到回复提醒哦！',
-    //   verify: true, // 验证码服务
-    //   // notify: true,
-    //   recordIP: true,
-    //   // hideComments: true // 隐藏评论
-    // },
+    valineConfig: {
+      appId: 'xxx',
+      appKey: 'xxx',
+      placeholder: '填写邮箱可以收到回复提醒哦！',
+      verify: true, // 验证码服务
+      // notify: true,
+      recordIP: true,
+      // hideComments: true // 隐藏评论
+    },
   }),
   lang: 'zh-CN',
   // debug: true,
+  plugins: []
 })
 
