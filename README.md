@@ -1,49 +1,21 @@
 ---
 home: true
 modules:
-  - BannerBrand
-  - Blog
+  - Banner
   - MdContent
+  - Blog
   - Footer
-bannerBrand:
-  bgImage: '/bg.svg'
-  title: vuepress-reco
-  description: 一款简洁的 vuepress 博客 & 文档 主题。
-  tagline: vuepress-theme-reco 2.0 继续坚持简洁的风格，所有功能开箱即用，首页模块化组装，使用 tailwindcss 书写样式，将 Vite 作为默认编译器。你只需要负责内容创作，其他请交给我。
-  buttons:
-    - { text: Guide, link: '/docs/guide/introduce' }
-    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
+banner:
+  heroText: Jovand博客
+  tagline: 业余作者，在线水文
+  bgImage: /img/bg2.svg
+  bgImageStyle:
+    width: '100%'
 blog:
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
+  socialLinks: 
+    - { icon: 'BrandCsdn', link: 'https://blog.csdn.net/qq_36171287' }
+    - { icon: 'Brandjuejin', link: 'https://juejin.cn/user/2357005414307127' }
 isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+footer:
+  startYear: 2022
 ---
-
-## 快速开始
-
-**npx**
-
-```bash
-# 初始化，并选择 2.x
-npx @vuepress-reco/theme-cli init
-```
-
-**npm**
-
-```bash
-# 初始化，并选择 2.x
-npm install @vuepress-reco/theme-cli@1.0.7 -g
-theme-cli init
-```
-
-**yarn**
-
-```bash
-# 初始化，并选择 2.x
-yarn global add @vuepress-reco/theme-cli@1.0.7
-theme-cli init
-```
