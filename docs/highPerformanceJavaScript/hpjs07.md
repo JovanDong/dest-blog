@@ -112,7 +112,7 @@ IE浏览器：
 console.time('对象直接量')
 for (var i = 0; i < 10000; i++) {
     var obj = {
-        name:'空城机',
+        name:'jovnd',
         age: 25,
         sex: '男'
     }
@@ -122,7 +122,7 @@ console.timeEnd('对象直接量')
 console.time('new Object方式')
 for (var i = 0; i < 10000; i++) {
    var obj = new Object();
-   obj.name = '空城机';
+   obj.name = 'jovnd';
    obj.age = 25;
    obj.sex = '男';
 }

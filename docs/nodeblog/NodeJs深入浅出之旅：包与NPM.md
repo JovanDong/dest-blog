@@ -63,7 +63,7 @@ NPM所有行为都与包描述文件的字段息息相关
 
     格式： 
     ``` javascript
-        "maintainers":[{ "name":"jovand", "email":"111@.com", "web":"[http:](https://blog.csdn.net/qq_36171287)" }]
+        "maintainers":[{ "name":"kongchengji", "email":"111@.com", "web":"[http:](https://blog.csdn.net/qq_36171287)" }]
     ```
 * contributors: 贡献者列表，格式与维护者列表相同
 * bugs: 一个可以反馈bug的网页地址或邮件地址
@@ -80,7 +80,7 @@ NPM所有行为都与包描述文件的字段息息相关
     ``` javascript
     "repository": {
     "type": "git",
-    "url": "git+https://github.com/jovand/UiSelfMade.git"
+    "url": "git+https://github.com/kongchengji/UiSelfMade.git"
   },
     ```
 * dependencies: **使用当前包所需要依赖的包列表**。 这个属性非常重要

@@ -27,7 +27,7 @@ categories:
 
 <div color=#EE5D1C>之前对于VR介绍过的文章是（效果还可以）</div>：
 
-[《Three.js杂记（七）—— 全景效果制作·上（含python爬虫偷碎图，canvas重组图片）》](https://jovand.blog.csdn.net/article/details/112438341)
+[《Three.js杂记（七）—— 全景效果制作·上（含python爬虫偷碎图，canvas重组图片）》](https://kongchengji.blog.csdn.net/article/details/112438341)
 
 ***
 <br><br>
@@ -72,7 +72,7 @@ const THREE = require('three')
 <br>
 
 ## <div color=#EC4420> 材料收集</div>
-这一部分内容是为了收集全景需要的前后左右上下六个面的图片，具体操作在[《Three.js杂记（七）—— 全景效果制作·上（含python爬虫偷碎图，canvas重组图片）》](https://jovand.blog.csdn.net/article/details/112438341)中已经包含了，这里我就不重复叙述了
+这一部分内容是为了收集全景需要的前后左右上下六个面的图片，具体操作在[《Three.js杂记（七）—— 全景效果制作·上（含python爬虫偷碎图，canvas重组图片）》](https://kongchengji.blog.csdn.net/article/details/112438341)中已经包含了，这里我就不重复叙述了
 
 最终收集到的图片如下：
 ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7fb94b466f784f289c8f5cb9ec1a173e~tplv-k3u1fbpfcp-zoom-1.image)

@@ -43,7 +43,7 @@ categories:
 
 当然博客也是选择性的写了一些章节，没有写全，只是做了一些自己的总结
 
-如果要看全还是看书吧 ： [《高性能JavaScript-中文版》（仅供学习使用）](https://gitee.com/wzcjovand/high_performance_javascript)
+如果要看全还是看书吧 ： [《高性能JavaScript-中文版》（仅供学习使用）](https://gitee.com/wzckongchengji/high_performance_javascript)
 
 
 

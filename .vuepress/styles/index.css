@@ -30,7 +30,7 @@
 }
 .home-wrapper .banner-wrapper {
   background: url(../public/img/bg5.png) center cover no-repeat !important;
-  /* height: 60vh; */
+  height: 60vh;
 }
 .home-wrapper .banner-wrapper .hero-content h1 {
   /* 文字阴影渐变 */

@@ -10,7 +10,7 @@ categories:
 ---
 
 ### 学习来源
-[《高性能JavaScript-中文版》（仅供学习使用）](https://gitee.com/wzcjovand/high_performance_javascript)
+[《高性能JavaScript-中文版》（仅供学习使用）](https://gitee.com/wzckongchengji/high_performance_javascript)
 
 # 数据存取
 
@@ -28,7 +28,7 @@ categories:
 	
 在不同浏览器中，访问不同存储位置的数据需要消耗的时间也是不同的。由下图```每200000次读取变量存储位置所消耗的时间```可以知道，**读取字面量和本地变量消耗的时间最少，性能最高**。
 
-![每200000次读取变量存储位置所消耗的时间](e)
+![每200000次读取变量存储位置所消耗的时间](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b8a774378364406aa1a4f817e90892ad~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 标识符解析
 标识符解析是有代价的，事实上没有哪种计算机操作可以不产生性能开销。在执行环境的作用域链中，一个标识符所在的位置越深，它的读写速度也就越慢。因此，函数中**读写局部变量总是最快的，而读写全局变量通常是最慢的**（优化JavaScript 引擎在某些情况下能有所改善)。

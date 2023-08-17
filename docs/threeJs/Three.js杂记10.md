@@ -129,7 +129,7 @@ c.fillStyle = "#fff"; //文本填充颜色
 c.font = "bold 28px 宋体"; //字体样式设置
 c.textBaseline = "middle"; //文本与fillText定义的纵坐标
 c.textAlign = "center"; //文本居中(以fillText定义的横坐标)
-c.fillText("空城机  (￣ε(#￣)☆╰╮o(￣皿￣///)", 0, 0);
+c.fillText("jovnd  (￣ε(#￣)☆╰╮o(￣皿￣///)", 0, 0);
 ```
 
 ```javascript

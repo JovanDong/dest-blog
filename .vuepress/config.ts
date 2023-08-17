@@ -109,6 +109,7 @@ export default defineUserConfig({
             'Three.js杂记10.md',
             'Three.js杂记11.md',
             'Three.js杂记12.md',
+            'Three.js杂记13.md',
           ],
         },
       ],
@@ -146,7 +147,7 @@ export default defineUserConfig({
       body: [
         {
           type: 'text',
-          content: `🎉🎉🎉 `,
+          content: `🎉🎉🎉 2023重新出发`,
           style: 'font-size: 12px;',
         },
       ],
@@ -164,6 +165,5 @@ export default defineUserConfig({
   }),
   lang: 'zh-CN',
   // debug: true,
-  plugins: []
 })
 

@@ -223,7 +223,7 @@ HTML页面：
     <script>
         function beaconbtn() {
             var url = 'http://localhost:3001/goodsList.png';
-            var params = ['id=123', 'name=空城机', 'data=测试数据是否能够在后台接收']  //发送的数据
+            var params = ['id=123', 'name=jovnd', 'data=测试数据是否能够在后台接收']  //发送的数据
             var beacon = new Image();
             beacon.src = url + '?' + params.join('&');
             // 用load事件监听服务器是否成功接收数据
