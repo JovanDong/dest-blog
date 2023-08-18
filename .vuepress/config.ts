@@ -3,7 +3,7 @@ import recoTheme from 'vuepress-theme-reco'
 
 
 export default defineUserConfig({
-  title: 'Jovand的博客', // 名称
+  title: 'JovanDe博客', // 名称
   description: '这是使用vuepress-reco进行的第一次配置', // 描述
   dest: 'dist', // 打包文件的位置
   base: '/', // 准备发布到GitHub的仓库名称
@@ -90,6 +90,7 @@ export default defineUserConfig({
             '从0开始的TypeScriptの十一：模块和命名空间.md',
             '从0开始的TypeScriptの十二：装饰器.md',
             '从0开始的TypeScriptの十三： infer、extends、keyof、typeof、in.md',
+            '基础01.md'
           ],
         },
       ],

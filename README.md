@@ -6,7 +6,7 @@ modules:
   - Blog
   - Footer
 banner:
-  # heroText: Jovand博客
+  heroText: JovanDe博客
   tagline: 淡中安生，静中生长
   bgImage: /img/bg5.png
   bgImageStyle:

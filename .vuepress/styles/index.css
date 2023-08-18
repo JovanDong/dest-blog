@@ -30,7 +30,7 @@
 }
 .home-wrapper .banner-wrapper {
   background: url(../public/img/bg5.png) center cover no-repeat !important;
-  height: 60vh;
+  height: 50vh;
 }
 .home-wrapper .banner-wrapper .hero-content h1 {
   /* 文字阴影渐变 */
@@ -57,6 +57,8 @@
     color: rgba(227, 179, 130, 0.5);
     text-shadow: none;
   }
+}
+.home-wrapper .home-blog-content{
 }
 .home-wrapper .home-blog-content .social-links .social-item {
   width: 45px;

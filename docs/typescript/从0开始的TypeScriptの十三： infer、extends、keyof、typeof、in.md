@@ -1,6 +1,6 @@
 ---
 title: 从0开始的TypeScriptの十三： infer、extends、keyof、typeof、in
-date: 7/15/2022, 4:55:34 PM
+date: 7/15/2023, 4:55:34 PM
 tags: 
     - TypeScript 
 categories: 
