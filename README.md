@@ -11,10 +11,9 @@ banner:
   bgImage: /img/bg5.png
   bgImageStyle:
     width: '100%'
-blog:
-  socialLinks: 
-    # - { icon: 'BrandCsdn', link: 'https://blog.csdn.net/qq_36171287' }
-    # - { icon: 'Brandjuejin', link: 'https://juejin.cn/user/2357005414307127' }
+# blog:
+#   socialLinks: 
+  
 isShowTitleInHome: true
 footer:
   startYear: 2023

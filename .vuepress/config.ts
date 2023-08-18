@@ -13,7 +13,9 @@ export default defineUserConfig({
     ['meta', { name: 'keywords', content: 'Jovand的个人博客网页' }],
     ['meta', { name: 'description', content: 'Jovand的个人博客网页' }],
     ['meta', { name: 'author', content: 'Jovand' }],
-    ['meta', { name: 'robots', content: 'all' }]
+    ['meta', { name: 'robots', content: 'all' }],
+    ['meta', { name: 'referrer', content: 'never' }] // 解决不是png结尾网络图片无法显示的问题
+   
   ],
   // 主题配置
   theme: recoTheme({
