@@ -31,7 +31,7 @@ export default defineUserConfig({
   theme: recoTheme({
     // style: '@vuepress-reco/style-default',
     logo: '/img/home/headportrait.gif',
-    author: 'jovand',
+    author: 'Jovan',
     authorAvatar: '/img/home/headportrait.gif',
     // series 为原 sidebar
     series: {
