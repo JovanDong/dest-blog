@@ -25,6 +25,12 @@ export default defineUserConfig({
     authorAvatar: '/img/home/headportrait.gif',
     // series 为原 sidebar
     series: {
+      '/docs/baseJavascript/': [
+        {
+          text: 'js基础',
+          children: readDir('docs/baseJavascript')
+        },
+      ],
       '/docs/highPerformanceJavaScript/': [
         {
           text: '高性能JavaScript',
@@ -55,6 +61,10 @@ export default defineUserConfig({
       {
         text: '博客专栏',
         children: [
+          {
+            text: 'js基础',
+            link: '/docs/baseJavascript/js01',
+          },
           {
             text: '高性能JavaScript',
             link: '/docs/highPerformanceJavaScript/hpjs01',
