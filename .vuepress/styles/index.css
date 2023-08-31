@@ -44,6 +44,9 @@
   font-weight: bold;
   color: #fff;
 }
+/* .footer-wrapper span:nth-child(1){
+  display: none;
+} */
 @keyframes san {
   0%,
   100% {

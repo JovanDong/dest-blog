@@ -1,12 +1,13 @@
 import { defineUserConfig } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 import { readDir } from './public/js/filenameGet'
+import {afterburner} from'./hooks'
 export default defineUserConfig({
   title: 'JovanDe博客', // 名称
   description: '这是使用vuepress-reco进行的第一次配置', // 描述
   dest: 'dist', // 打包文件的位置
   base: '/', // 准备发布到GitHub的仓库名称
-  port: 9088, // 运行端口号
+  port: 9999, // 运行端口号
   // 添加到html的head顶部的东西
   head: [
     ['link', { rel: 'icon', href: '/img/home/headportrait.gif' }],
@@ -15,22 +16,14 @@ export default defineUserConfig({
     ['meta', { name: 'author', content: 'Jovand' }],
     ['meta', { name: 'robots', content: 'all' }],
     ['meta', { name: 'referrer', content: 'never' }] // 解决不是png结尾网络图片无法显示的问题
-   
   ],
   // 主题配置
   theme: recoTheme({
-    // style: '@vuepress-reco/style-default',
+    style: '@vuepress-reco/style-default',
     logo: '/img/home/headportrait.gif',
     author: 'Jovan',
     authorAvatar: '/img/home/headportrait.gif',
-    // series 为原 sidebar
     series: {
-      '/docs/baseJavascript/': [
-        {
-          text: 'js基础',
-          children: readDir('docs/baseJavascript')
-        },
-      ],
       '/docs/highPerformanceJavaScript/': [
         {
           text: '高性能JavaScript',
@@ -61,10 +54,6 @@ export default defineUserConfig({
       {
         text: '博客专栏',
         children: [
-          {
-            text: 'js基础',
-            link: '/docs/baseJavascript/js01',
-          },
           {
             text: '高性能JavaScript',
             link: '/docs/highPerformanceJavaScript/hpjs01',
